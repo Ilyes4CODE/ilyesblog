@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: -webkit-linear-gradient(#fff 0%, #f2f7ff 100%);
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .active-back {
+    color: #919cb2 !important;
+  }
+  .active-back:hover {
+    cursor: pointer;
+    color: #286efa !important;
+  }
+  .back {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    color: #d6dae4;
+    display: block;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-top: -30px;
+    font-size: 24px;
+  }
+  .shift {
+    left: -330px !important;
+  }
+  h3 {
+    position: absolute;
+    margin-left: 88px;
+    margin-top: 80px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #4f5c76;
+  }
+  input {
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding-left: 10px;
+    transition: 0.3s;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  input:focus {
+    border: 1px solid #286efa !important;
+    outline-width: 0;
+  }
+  button {
+    margin-top: 30px;
+    width: 262px;
+    height: 40px;
+    background: #286efa;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #286efa;
+    border-radius: 3px;
+  }
+  button:hover {
+    background: #3c82ff;
+    cursor: pointer;
+  }
+  .form {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0px 5px 80px 0px #e4e8f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .form form {
+    margin-top: 50px;
+    width: 750px;
+  }
+  .form form .inputs {
+    position: relative;
+    left: 65px;
+    top: 150px;
+    transition: 0.3s;
+  }
+  .form form .inputs .email {
+    float: left;
+    position: relative;
+    width: 350px;
+  }
+  .form form .inputs .password {
+    float: right;
+    position: relative;
+    width: 350px;
+  }
+  .warning {
+    color: #f00;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .loader {
+    margin-left: 22%;
+    margin-top: 22%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #e8ebf1;
+    border-top-color: #286efa;
+    animation: spinner 1s infinite linear;
+  }
+  @-moz-keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
